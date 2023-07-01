@@ -517,7 +517,7 @@ header {
     }
 
     .book-card {
-        margin-left: 40px;
+        /* margin-left: 40px; */
         margin-bottom: 20px;
     }
 
@@ -589,6 +589,7 @@ header {
         display: none;
         flex-direction: column;
     }
+
     .logo {
         display: none;
     }
@@ -624,14 +625,14 @@ header {
     .menu.close {
         transform: translateX(0%);
     }
-    
+
     .btn-open.close {
         display: none;
     }
 
     .btn-close.open {
         display: block;
-    }   
+    }
 }
 
 @media (max-width: 767px) {
@@ -644,4 +645,145 @@ header {
     .compaines-card {
         margin-top: 40px;
     }
+
+    .img-card {
+        width: 200px;
+    }
+
+    .book-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .author h1 {
+        font-size: 30px;
+    }
+
+    .col-book-info {
+        margin-top: 20px;
+    }
+
+    .author_books {
+        margin-top: 0px;
+    }
+
+    .book-card {
+        margin-top: 60px;
+    }
+
+    .col-book-info h2 {
+        font-size: 28px;
+    }
+
+    .col-book-info h3 {
+        font-size: 18px;
+    }
+
+    .col-book-info h4 {
+        font-size: 17px;
+    }
+
+    .type-book p {
+        font-size: 20px;
+    }
+
+    .btn3 {
+        font-size: 14px;
+        padding: 16px 20px;
+    }
+
+    .compaines h1 {
+        font-size: 30px ;
+    }
+
+    .compaines-card h3 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+
+    .image {
+        width: 250px;
+    }
+
+    .about-author-info {
+        margin-top: 10;
+        width: 295px;
+    }
+
+    .about-author-info h1 {
+        font-size: 24px;
+    }
+
+    .about-author-info h2 {
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about-card h3 {
+        font-size: 40px;
+    }
+
+    .about-card h4 {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .card {
+        margin-right: 0px;
+        margin-top: 20px;
+
+    }
+
+    .welcome-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-img {
+        width: 250px;
+    }
+
+    .about-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .vert-line {
+        display: none;
+    }
+
+    .about-card {
+        margin-left: 0px;
+    }
+
+    .col-book-info h4 {
+        width: auto;
+    }
+
+    .about-box {
+        width: 250px;
+    }
+
+    .qr {
+        width: 80;
+        height: 80;
+    }
+
+    .about-box-info {
+        margin-left: 15px;
+    }
+
+    .about-box-info h5 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .about-box-info h6 {
+        font-size: 12px;
+    }
+
 }
